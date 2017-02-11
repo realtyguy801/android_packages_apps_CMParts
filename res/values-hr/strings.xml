@@ -175,7 +175,6 @@
   <string name="camera_launch_title">Pokreni kameru</string>
   <string name="camera_launch_summary">Dugi pritisak i puštanje će pokrenuti kameru</string>
   <string name="volbtn_music_controls_title">Kontrola reprodukcije</string>
-  <string name="volbtn_music_controls_summary">Preskačite pjesme dugim pritiskom gumba za glasnoću kad je zaslon isključen.</string>
   <string name="volbtn_cursor_control_title">Kontrola pokazivača tipkovnice</string>
   <string name="volbtn_cursor_control_off">Onemogućeno</string>
   <string name="volbtn_cursor_control_on">Tipka za glasnoću gore/dolje pomiče kursor lijevo/desno</string>
@@ -374,8 +373,6 @@
   <string name="status_bar_notif_count_summary">Prikaži broj neriješenih obavijesti</string>
   <string name="status_bar_quick_qs_pulldown_title">Brzo potezanje</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s rub trake stanja povlači dolje Brze postavke</string>
-  <string name="status_bar_quick_qs_pulldown_summary_left">Lijevi</string>
-  <string name="status_bar_quick_qs_pulldown_summary_right">Desni</string>
   <string name="status_bar_quick_qs_pulldown_off">Isključen</string>
   <string name="status_bar_quick_qs_pulldown_left">Lijevi</string>
   <string name="status_bar_quick_qs_pulldown_right">Desni</string>
@@ -400,9 +397,6 @@
   <!-- Status bar - icon blacklist -->
   <string name="status_bar_icons_title">Ikone trake statusa</string>
   <string name="status_bar_icons_summary">Uredi prikazane ikone trake statusa</string>
-  <!-- Status bar - double tap to sleep -->
-  <string name="status_bar_double_tap_to_sleep_title">Dvostruki dodir za spavanje</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Dvaput dodirnite traku statusa za isključivanje zaslona</string>
   <!-- Protected apps -->
   <string name="protected_apps_manager_title">Zaštićene aplikacije</string>
   <string name="protected_apps_manager_summary">Upravljanje aplikacijama koje su skrivene iza sigurnog zaključavanja</string>
@@ -490,4 +484,5 @@
   <string name="expanded_desktop_style_hide_both">Sakrij oboje</string>
   <string name="expanded_desktop_nothing_to_show_text">Isključite promjenu prilagodbe vaše proširene radne površine na svaku pojedinu aplikaciju</string>
   <!-- Sounds: Charging sounds -->
+  <!-- Gestures: Touchscreen gestures -->
 </resources>

@@ -1,5 +1,6 @@
 /**
  * Copyright (C) 2016 The CyanogenMod project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -47,11 +48,7 @@ import android.view.KeyEvent;
 
 import com.android.internal.os.DeviceKeyHandler;
 
-import cyanogenmod.hardware.CMHardwareManager;
-import cyanogenmod.hardware.TouchscreenGesture;
 import cyanogenmod.providers.CMSettings;
-
-import org.cyanogenmod.cmparts.gestures.TouchscreenGestureConstants;
 
 public class KeyHandler implements DeviceKeyHandler {
 
@@ -145,7 +142,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     public boolean handleKeyEvent(final KeyEvent event) {
         final int action = mActionMapping.get(event.getScanCode(), -1);
-        if (action < 0 || event.getAction() != KeyEvent.ACTION_UP || !hasSetupCompleted()) {
+        if (action < 0 || event.getAction() != KeyEvent.ACTION_UP) {
             return false;
         }
 
@@ -164,11 +161,6 @@ public class KeyHandler implements DeviceKeyHandler {
         }
 
         return true;
-    }
-
-    private boolean hasSetupCompleted() {
-        return CMSettings.Secure.getInt(mContext.getContentResolver(),
-                CMSettings.Secure.CM_SETUP_WIZARD_COMPLETED, 0) != 0;
     }
 
     private void processEvent(final int action) {
