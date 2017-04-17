@@ -31,8 +31,8 @@
   <string name="back">Nazaj</string>
   <string name="finish">Končaj</string>
   <string name="next">Naprej</string>
-  <string name="on">Vkl.</string>
-  <string name="off">Izk.</string>
+  <string name="on">Vklopljeno</string>
+  <string name="off">Izklopljeno</string>
   <string name="yes">Da</string>
   <string name="no">Ne</string>
   <string name="search">Išči</string>
@@ -174,6 +174,8 @@
   <string name="hardware_keys_action_sleep">Izklopi zaslon</string>
   <string name="hardware_keys_action_last_app">Zadnja aplikacija</string>
   <string name="hardware_keys_action_split_screen">Razdeli zaslon</string>
+  <string name="hardware_keys_action_single_handed_left">Enoročni način (levo)</string>
+  <string name="hardware_keys_action_single_handed_right">Enoročni način (desno)</string>
   <string name="camera_sleep_on_release_title">Predogled zaslona</string>
   <string name="camera_sleep_on_release_summary">Polpritisk bo ohranil zaslon vklopljen samo, ko je gumb pridržan</string>
   <string name="camera_launch_title">Zaženi fotoaparat</string>
@@ -214,7 +216,7 @@
   <string name="navigation_bar_left_summary">Umesti vrstico za krmarjenje ne levo stran zaslona v ležečem načinu</string>
   <string name="navigation_bar_arrow_keys_title">Prikaži smerne tipke med tipkanjem</string>
   <string name="navigation_bar_arrow_keys_summary">Prikaži gumba levega in desnega kazalca med tipkanjem. Preglasi preklopnik IME.</string>
-  <string name="navigation_bar_home_long_press_title">Dejanje dolgega pritiska Nedavno</string>
+  <string name="navigation_bar_home_long_press_title">Dejanje dolgega pritiska Domov</string>
   <string name="navigation_bar_home_double_tap_title">Dejanje dvakratnega tapa Domov</string>
   <string name="navigation_bar_recents_title">Dejanje dolgega pritiska Nedavno</string>
   <!-- Power menu -->
@@ -285,8 +287,8 @@
   <string name="profile_app_group_item_instructions">Dodaj ali odstrani skupine</string>
   <string name="profile_app_group_item_instructions_summary">Dodaj ali odstrani skupine aplikacij za preglasitev obvestil iz tega profila</string>
   <!-- Profile mode options. -->
-  <string name="profile_entries_on">Vkl.</string>
-  <string name="profile_entries_off">Izk.</string>
+  <string name="profile_entries_on">Vklopljeno</string>
+  <string name="profile_entries_off">Izklopljeno</string>
   <string name="profile_entries_no_override">Brez preglasitev</string>
   <!-- Add Profile -->
   <string name="profile_name_title">Ime</string>
@@ -376,16 +378,21 @@
   <string name="status_bar_title">Vrstica stanja</string>
   <string name="status_bar_quick_qs_pulldown_title">Hitro spuščanje</string>
   <string name="status_bar_quick_qs_pulldown_summary">%1$s rob vrstice stanja spusti Hitre nastavitve</string>
-  <string name="status_bar_quick_qs_pulldown_off">Izk.</string>
+  <string name="status_bar_quick_qs_pulldown_off">Izklopljeno</string>
   <string name="status_bar_quick_qs_pulldown_left">Levi</string>
   <string name="status_bar_quick_qs_pulldown_right">Desni</string>
   <string name="status_bar_toggle_brightness">Nadzor svetlosti</string>
   <string name="status_bar_toggle_brightness_summary">Prilagodite svetlost tako, da povlečete preko vrstice stanja</string>
+  <string name="status_bar_double_tap_to_sleep_title">Dvojni tap za spanje</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Dvakrat tapnite na vrstico stanja, da izklopite zaslon</string>
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Ikone vrstice stanja</string>
   <string name="status_bar_notif_count_title">Prikaži število obvestil</string>
   <string name="status_bar_notif_count_summary">Prikaži število obvestil na čakanju</string>
+  <string name="status_bar_system_icons_title">Sistemske ikone</string>
+  <string name="status_bar_system_icons_summary">Nadzor prikazanih ikon v vrstici stanja</string>
   <!-- Status bar - Clock -->
+  <string name="status_bar_clock_title">Ura</string>
   <string name="status_bar_clock_position_title">Položaj ure</string>
   <string name="status_bar_clock_position_right">Desno</string>
   <string name="status_bar_clock_position_left">Levo</string>
@@ -396,6 +403,7 @@
   <string name="status_bar_am_pm_small">Majhno</string>
   <string name="status_bar_am_pm_hidden">Skrito</string>
   <!-- Status bar - Battery -->
+  <string name="status_bar_battery_title">Stanje baterije</string>
   <string name="status_bar_battery_style_title">Slog stanja baterije</string>
   <string name="status_bar_battery_style_icon_portrait">Pokončna ikona</string>
   <string name="status_bar_battery_style_icon_landscape">Ležeča ikona</string>

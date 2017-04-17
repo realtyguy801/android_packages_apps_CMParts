@@ -174,6 +174,8 @@
   <string name="hardware_keys_action_sleep">Ekranı kapat</string>
   <string name="hardware_keys_action_last_app">Son uygulama</string>
   <string name="hardware_keys_action_split_screen">Bölünmüş ekran</string>
+  <string name="hardware_keys_action_single_handed_left">Tek el modu (sol)</string>
+  <string name="hardware_keys_action_single_handed_right">Tek el modu (sağ)</string>
   <string name="camera_sleep_on_release_title">Ekrana göz atma</string>
   <string name="camera_sleep_on_release_summary">Sadece tuşa basılı tutulduğunda yarım basış ekranı açık tutacaktır</string>
   <string name="camera_launch_title">Kamerayı başlat</string>
@@ -382,7 +384,7 @@
   <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
   <string name="status_bar_toggle_brightness_summary">Durum çubuğu üzerinde kaydırarak parlaklığı ayarla</string>
   <string name="status_bar_double_tap_to_sleep_title">Uyku için çift dokunun</string>
-  <string name="status_bar_double_tap_to_sleep_summary">Ekranı kapatmak için durum çubuğuna çift dokun</string>
+  <string name="status_bar_double_tap_to_sleep_summary">Ekranı kapatmak için durum çubuğuna çift dokunun</string>
   <!-- Status bar - icons -->
   <string name="status_bar_icons_title">Durum çubuğu simgeleri</string>
   <string name="status_bar_notif_count_title">Bildirim sayısını göster</string>
